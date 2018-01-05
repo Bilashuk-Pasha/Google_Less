@@ -1,0 +1,28 @@
+.Tabs {
+	.flexbox;
+	.justify-content(space-between);
+	align-content: space-between;
+
+	&-li {
+		margin: 10px 0;
+	    width: 155px;
+	    height: 130px;
+	    border:1px solid @color-border;
+	    .border-radius(3px);
+	    .box-shadow(0 2px 0 rgba(0,0,0,0.2));
+	}
+}
+
+@media @mobile_863 {
+	.tl4,
+	.tl8 {
+		display:none;
+	}
+}
+
+@media @mobile_693 {
+	.tl3,
+	.tl7 {
+		display: none;
+	}
+}

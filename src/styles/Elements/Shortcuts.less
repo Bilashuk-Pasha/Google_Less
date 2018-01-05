@@ -1,0 +1,31 @@
+.prilogenia {
+	background: @bg-base;
+	border:1px solid @color-border ;
+	position: absolute;
+	z-index: 2;
+	right: 14px;
+	top: 100px;
+	.border-radius(3px);
+    .box-shadow( 0 0 4px rgba(0,0,0,0.1));
+	width: 324px;
+	height: 460px;
+}
+
+.shortcuts {
+	.flexbox;
+	.justify-content(center);
+
+	&-item {
+		width:86px;
+		height:86px;
+		margin-top:20px;
+		text-align: center;
+	}
+
+	&-a {
+		text-decoration:none;
+		font-size:12px;
+	    font-weight:100;
+	}
+}
+

@@ -1,0 +1,54 @@
+.logoURL {
+	margin: @margin_center;
+	padding-top: 50px;
+	.flexbox;
+	.flex-direction(column);
+	.align-items(center);
+
+	&-img {
+		width:295px;
+	    height: 105px;
+	}
+
+	&-URL {
+		  white-space:nowrap;
+		  position:relative;
+          
+		&-input {
+			width:650px;
+			height:45px;
+			padding: 0 10px;
+	        border:1px solid @color-border;
+	        .border-radius(3px);
+	        .box-shadow(0 2px 0 rgba(0,0,0,0.2));
+            font-size: 17px;
+
+            @media @mobile_863 {
+            	width:476px;
+
+            }
+
+            @media @mobile_693 {
+            	width: 306px;
+            }
+		}
+	}		
+}
+
+#mikrofon {
+	position:absolute;
+	right:14px;	    
+}
+
+#mikrofonHover {
+	position:absolute;
+	z-index: 1;
+	top:48px;
+	right: -33px;
+	opacity: 0;
+}
+  	 
+
+
+
+
